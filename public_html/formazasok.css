@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+header,nav,article,aside,footer,section {
+    border: 1px solid black;
+    padding:5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    width:150px;
+    max-width:100%;
+}
+
+header {
+    background-color: orange;
+    grid-area: h;
+}
+
+nav {
+    background-color: lightgreen;
+    grid-area: n;
+}
+
+article {
+    background-color: #ffcc99;
+    grid-area: a;
+}
+
+aside {
+    background-color: #9999ff;
+    grid-area: s;
+}
+
+footer {
+    background-color: #ffcccc;
+    grid-area: f;
+}
+
+form {
+    text-align:right;
+}
+
+.mezo {
+    width:250px;
+    max-width:80%;
+}
+
+#torol {
+    width:100px;
+}
+
+section {
+    background-color: beige;
+    margin-bottom: 10px;
+}
+
+section:nth-child(2) p {
+    color:#ff6666;
+}
+
+.balra {
+    text-align: left;
+}
+

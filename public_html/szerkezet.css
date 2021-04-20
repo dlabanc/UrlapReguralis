@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+main {
+    width:100%;
+    max-width: 800px;
+    margin: auto;
+    display:grid;
+    grid-template-areas:
+        "h h h h h h"
+        "n a a a a s"
+        "f f f f f f";
+    
+    grid-gap:10px;
+}
+
+
