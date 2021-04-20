@@ -20,7 +20,7 @@ function validalas() {
     var hiba = "";
     var adat = "";
 
-    var szuro = /^[A-Z]{1}[a-z]{2,19}$/;
+    var szuro = /[A-Z]{1}[a-z]+\s[A-Z]{1}[a-z]+/;
     if (!szuro.test(nevMezo)) {
         hiba += "Nagybetűvel kezdődjön!<br>";
         ID("nev").style.border = "2px solid red";
